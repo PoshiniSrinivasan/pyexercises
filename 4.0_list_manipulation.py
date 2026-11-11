@@ -48,3 +48,10 @@ print("Sorted list:", sorted(procurement_budgets))
 # Calculate and display the total budget
 total_budget = sum(procurement_budgets)
 print("Total budget:", total_budget)
+
+# Manual calculation using the first three budgets:
+# 1200 + 850 + 1500 = 3550
+# The program should give the same result.
+
+first_three_total = sum(procurement_budgets[:3])
+print("Manual check total:", first_three_total)
