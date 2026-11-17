@@ -98,3 +98,45 @@ I learned that "hello" is a string and 42 is an integer.
 I learned how to use print() and type() in Python.
 
 I also learned how to interact with the Python tutor.
+
+---
+
+Assignment 6.1 – Small Functions Working Together
+
+Me: I need help understanding Exercise 6.1. The assignment asks me to create three small functions and one summary function using procurement budget data. Can you explain the task step by step?
+
+Tutor: Certainly. The objective is to divide the program into small functions, with each function performing one specific task. You will create:
+
+1. calculate_total() to calculate the total budget.
+2. calculate_average() to calculate the average budget.
+3. find_highest() to find the highest budget.
+4. budget_summary() to call the first three functions and return a summary.
+
+Me: Why do we need separate functions instead of writing everything in one block of code?
+
+Tutor: Separate functions make the program easier to understand, test, reuse and maintain. If one calculation has an error, you can check that function independently.
+
+Me: What should the functions return?
+
+Tutor: The first three functions should return their calculated values. The fourth function should return all three results together as a tuple.
+
+Me: How can I test whether my functions are working correctly?
+
+Tutor: Use a list of procurement budgets and compare the program’s output with the expected results. Test each function separately before testing the summary function.
+
+Me: I ran my program. These are the results:
+
+* Total: 8650
+* Average: 1081.25
+* Highest: 1500
+* Budget summary: (8650, 1081.25, 1500)
+
+Are these results correct?
+
+Tutor: Yes. These results are consistent with the expected calculations shown in your assignment tests.
+
+Me: What did I learn from this exercise?
+
+Tutor: You practised creating functions, passing data as arguments, returning values, combining functions and using a tuple to return multiple results.
+
+My reflection: I learned that breaking a program into smaller functions makes the code easier to understand and test. I also improved my understanding of return statements, function calls and tuples in Python.
