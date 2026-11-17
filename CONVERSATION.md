@@ -140,3 +140,32 @@ Me: What did I learn from this exercise?
 Tutor: You practised creating functions, passing data as arguments, returning values, combining functions and using a tuple to return multiple results.
 
 My reflection: I learned that breaking a program into smaller functions makes the code easier to understand and test. I also improved my understanding of return statements, function calls and tuples in Python.
+
+2026-11-17 – Assignment 7.0: Standard I/O and File Output
+
+What I did:
+
+* Created a Python program to collect student information.
+* Asked for first name, last name, email, programme and year of study.
+* Used CSV file handling to save the information in student_records.csv.
+* Ran the program successfully and checked the saved output.
+
+Result: Student information saved successfully.
+
+2026-11-17 – Assignment 7.1: File Processing
+
+What I did:
+
+* Inspected names.txt and identified formatting issues.
+* Cleaned extra spaces and standardised names.
+* Sorted the names by last name.
+* Saved the cleaned results in cleaned_names.txt.
+
+Testing result:
+
+* Original names: 10
+* Cleaned names: 8
+* Output file: cleaned_names.txt
+* The program ran successfully.
+
+My reflection: I learned how to read a text file, clean and standardise data, sort names, and save the results in a new file without modifying the original file.
